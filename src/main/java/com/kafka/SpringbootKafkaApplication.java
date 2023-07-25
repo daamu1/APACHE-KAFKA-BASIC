@@ -21,12 +21,12 @@ public class SpringbootKafkaApplication {
     bin/kafka-console-consumer.sh --topic saurabh --from-beginning --bootstrap-server localhost:9092
 
      */
-    @Bean
-    CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
-        return args -> {
-            for (int i = 0; i < 10; i++) {
-                kafkaTemplate.send("saurabh", "hello kafka i am here :)" + i);
-            }
-        };
-    }
+//    @Bean
+//    CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
+//        return args -> {
+//            for (int i = 0; i < 10; i++) {
+//                kafkaTemplate.send("saurabh", "hello kafka i am here :)" + i);
+//            }
+//        };
+//    }
 }
