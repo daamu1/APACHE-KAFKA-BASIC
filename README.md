@@ -2,6 +2,8 @@
 
 This project provides a basic overview of Apache Kafka, explaining how it works, and demonstrates how to use it to post and consume messages.
 
+
+
 ## Installation
 
 To get started with the Apache Kafka Basics project, follow these steps:
